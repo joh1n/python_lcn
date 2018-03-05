@@ -57,7 +57,7 @@ t3.join()
 print('thread %s ended.' % threading.current_thread().name)
 
 
-with open(r'E:\wl.ts', 'ab') as file:
+with open(r'F:\wl.ts', 'ab') as file:
     for i in range(0,nnnn+1):
         filmnum=str(i).zfill(5)
         filmname='wl_00'+filmnum+'.ts'
